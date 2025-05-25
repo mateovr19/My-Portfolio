@@ -14,7 +14,7 @@ export default function PersonalInfo () {
           alt='Mateo Velasquez Rodriguez'
           classes='rounded-full w-[240px] h-[240px] object-cover mx-auto shadow-lg'
         />
-        <Text classes='text-center text-2xl font-semibold'>Mateo Velasquez R</Text>
+        <Text classes='text-center text-2xl font-semibold'>Mateo Velasquez Rodriguez</Text>
         <Text classes="text-center text-2xl text-gray-400">Systems Engineering Student</Text>
       </div>
       <HorizontalLine />
