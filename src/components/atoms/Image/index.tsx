@@ -1,4 +1,5 @@
 import React from 'react'
+import NextImage from 'next/image'
 
 type ImageProps = {
   src?: string
@@ -8,9 +9,11 @@ type ImageProps = {
 
 export default function Image (props: ImageProps) {
   return (
-    <img
-      src={props.src}
-      alt={props.alt}
+    <NextImage
+      src={props.src || ''}
+      alt={props.alt || ''}
+      width={300}
+      height={300}
       className={`${props.classes || ''}`}
     />
   )

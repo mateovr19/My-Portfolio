@@ -1,6 +1,5 @@
 'use client';
 import React from 'react'
-import { Icon } from "@iconify/react";
 import Button from "../../../atoms/Button/index";
 import PopUp from "../../../molecules/PopUp/index"
 import Image from '../../../atoms/Image/index';
@@ -17,7 +16,7 @@ export default function MainInfo() {
   return (
     <main className='mx-2 flex flex-col items-center justify-center bg-white shadow-md lg:flex-row lg:mx-5 p-5 lg:p-0 lg:mt-0'>
       <section className='p-8'>
-        <h1 className="text-4xl font-bold text-secondary">I'm Mateo Velásquez Rodríguez</h1>
+        <h1 className="text-4xl font-bold text-secondary">I&apos;m Mateo Velásquez Rodríguez</h1>
         <h1 className="text-4xl font-bold text-secondary">
           <span className="text-tertiary">Software </span>
           Developer
