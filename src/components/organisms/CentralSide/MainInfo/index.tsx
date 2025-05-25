@@ -51,7 +51,7 @@ export default function MainInfo() {
       </section>
       <section className="hidden lg:flex flex-col justify-end h-full">
         <Image
-        src='/Mi-foto.png'
+        src='/MainInfo.png'
         alt='Mateo Velasquez Rodriguez'
         classes="block mx-auto"
         />
