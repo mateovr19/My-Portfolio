@@ -10,9 +10,9 @@ export default function PersonalInfo () {
     <>
       <div className='flex flex-col p-6 gap-6'>
         <Image
-          src="/Mi-foto.png"
+          src="/RoundedPhoto.png"
           alt='Mateo Velasquez Rodriguez'
-          classes='rounded-full w-60 h-60 object-cover mx-auto shadow-lg'
+          classes='rounded-full w-[240px] h-[240px] object-cover mx-auto shadow-lg'
         />
         <Text classes='text-center text-2xl font-semibold'>Mateo Velasquez R</Text>
         <Text classes="text-center text-2xl text-gray-400">Systems Engineering Student</Text>
