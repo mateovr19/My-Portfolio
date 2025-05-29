@@ -22,7 +22,7 @@ export default function PersonalInfo () {
         <div className='flex flex-col gap-6'>
             <AlignedText
             leftText='Age:'
-            rightText='27'
+            rightText='25'
             />
             <AlignedText
             leftText='Residence:'
